@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_dashboard_24"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/listRoleFragment"
+            android:icon="@drawable/ic_role_24"
+            android:title="Roles" />
+        <item
+            android:id="@+id/listStudentFragment"
+            android:icon="@drawable/ic_user_24"
+            android:title="Students" />
+
+        <item
+            android:id="@+id/listFiliereFragment"
+            android:icon="@drawable/ic_school_24"
+            android:title="Filieres" />
+
+        <item
+            android:id="@+id/listStudentByFiliereFragment"
+            android:icon="@drawable/ic_search_24"
+            android:title="Students by filieres" />
+
+        <item
+            android:id="@+id/roleAssignmentFragment"
+            android:icon="@drawable/ic_assignment_24"
+            android:title="Role Assignment" />
+<!--        <item-->
+<!--            android:id="@+id/nav_gallery"-->
+<!--            android:icon="@drawable/ic_menu_gallery"-->
+<!--            android:title="@string/menu_gallery" />-->
+<!--        <item-->
+<!--            android:id="@+id/nav_slideshow"-->
+<!--            android:icon="@drawable/ic_menu_slideshow"-->
+<!--            android:title="@string/menu_slideshow" />-->
+    </group>
+</menu>
